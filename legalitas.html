@@ -31,6 +31,15 @@
 			background: #365769 !important;
 		}
 
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
 		body #booked-profile-page input[type=submit].button-primary:hover,
 		body table.booked-calendar input[type=submit].button-primary:hover,
 		body .booked-modal input[type=submit].button-primary:hover,
@@ -1869,6 +1878,23 @@
 			width: 100%;
 			height: 100%;
 		}
+
+        .divider {
+            width: 60px;
+            height: 4px;
+            background: white;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        header {
+            background: linear-gradient(to right, #800000, #cc0000);
+            color: white;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
 	</style>
 	<script type="text/javascript" charset="UTF-8" src="./common.js.download"></script>
 	<script type="text/javascript" charset="UTF-8" src="./util.js.download"></script>
@@ -1988,6 +2014,9 @@
 											href="#colophon">Produk</a>
 									</li>
 									<li class="super-guacamole__menu__child menu-item" hidden="hidden"><a
+											href="">Resep</a>
+									</li>
+									<li class="super-guacamole__menu__child menu-item" hidden="hidden"><a
 											href="#colophon">Legalitas</a>
 									</li>
 									<li class="super-guacamole__menu__child menu-item" hidden="hidden"><a
@@ -2006,467 +2035,469 @@
 				</div><!-- .header-container -->
 			</div>
 		</header><!-- #masthead -->
+        <body class="bg-gray-50 text-gray-800">
+              
+              
+          
+            <!-- Main Content -->
+            <main class="max-w-5xl mx-auto px-4 py-10">
+              <section class="bg-white rounded-lg shadow p-6 mb-8">
+                <h2 class="text-2xl font-semibold mb-4 text-red-800">Daftar Sertifikat & Legalitas</h2>
+                <ol class="list-decimal pl-5 space-y-3 text-sm md:text-base text-gray-700">
+                  <li><strong>Penyuluhan Keamanan Pangan (PKP)</strong>, No. 320/3201/2016, Dinas Kesehatan, 1 September 2016</li>
+                  <li><strong>Aspek Legalitas (Perizinan Usaha)</strong>, No. 001/F-UMKM/CBN/IX/2016, Dinas Koperasi Kec. Cibinong, 6 September 2016</li>
+                  <li><strong>Pelatihan Bisnis UMKM</strong>, PERBANAS Institute, 21 Oktober 2016</li>
+                  <li><strong>Seminar Kewirausahaan</strong>, Bank BJB, 5 Desember 2016</li>
+                  <li><strong>Web Design & Laporan Keuangan</strong>, PERBANAS Institute, 17 Januari 2017</li>
+                  <li><strong>Surat Izin Usaha Mikro & Kecil</strong>, No. 503/0041/SK/IUMK/kec.Cibinong/2017, 30 Oktober 2017</li>
+                  <li><strong>Sertifikat Wira Usaha Baru (WUB)</strong>, Kabupaten Bogor, November 2017</li>
+                  <li><strong>Sertifikat WUB Provinsi</strong>, No. 002.6/0196/P3W/2018, Prov. Jawa Barat, 15 Maret 2018</li>
+                  <li><strong>Good Manufacturing Practice (GMP)</strong>, No. 530/387.A.perindustrian, Kemendag, 21 Februari 2019</li>
+                  <li><strong>Strategi Pemasaran</strong>, No. 1016/SJ-DAG.8/sert/2019, Kemendag, 18 September 2019</li>
+                  <li><strong>Program UMKM Juara</strong>, No. 861/9566/Diskop UK, Prov. Jawa Barat, 29 November 2019</li>
+                  <li><strong>Hak Merek Dagang (HAKI)</strong> untuk “JENG EVIE”, KEMENKUMHAM, Cianjur, 9 Januari 2020</li>
+                  <li><strong>Sistem Jaminan Halal</strong>, Pelatihan MUI, 15 April 2021</li>
+                  <li><strong>Kemitraan Usaha Mikro</strong>, Dinas UMKM Kab. Bogor, 23 Juni 2021</li>
+                  <li><strong>Nomor Induk Berusaha (NIB)</strong>, Perizinan Berbasis Risiko, 21 Oktober 2021</li>
+                  <li><strong>Pelatihan Kemitraan Usaha Mikro</strong>, No. 518.3/585/Diskopukm, 23 Juni 2021</li>
+                  <li><strong>Higiene Sanitasi TPP Tertentu</strong>, Dinas Kesehatan Kab. Bogor, 21 Maret 2023</li>
+                  <li><strong>Sertifikat Halal</strong>, BPJPH, 24 September 2023</li>
+                </ol>
+              </section>
+          
+              <section class="bg-white rounded-lg shadow p-6">
+                <h2 class="text-xl font-semibold mb-4 text-red-800">Komitmen Kami</h2>
+                <p class="text-gray-700 leading-relaxed text-sm md:text-base">
+                  JengEvieFood selalu menjaga integritas dan kualitas produk dengan mematuhi seluruh regulasi yang berlaku.
+                  Legalitas yang kami miliki mencerminkan dedikasi kami terhadap keamanan pangan, pengelolaan usaha yang profesional,
+                  serta standar produksi yang baik. Kami percaya bahwa produk yang legal, halal, dan higienis adalah fondasi utama
+                  dalam membangun kepercayaan konsumen.
+                </p>
+              </section>
+            </main>
+          
 
-		<div class="container mx-auto py-8">
-			<div class="grid grid-cols-2 gap-4 md:grid-cols-5">
-				<!-- Product Cards -->
-				<div class="bg-white p-3 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-95 min-w-[180px]">
-					<img src="gambarproduk/PIC-TB copy.jpg" alt="Tahu Bakso" class="w-full h-48 object-cover rounded-lg">
-					<h2 class="font-bold mt-2 text-sm">Tahu Bakso</h2>
-					<a href="viewtabok.html" class="block w-full text-white py-2 px-3 rounded-lg mt-2 text-center text-sm" style="background-color: #990000;">View Product</a>
+        <footer class="entry-footer">
+        </footer><!-- .entry-footer -->
+    
+        </article><!-- #post-## -->
+    
+        </main><!-- #main -->
+    
+        </div><!-- #primary -->
+    
+    
+        </div><!-- .row -->
+    
+        </div><!-- .container -->
+    
+    
+    
+        </div><!-- #content -->
+    
+        <footer style="background-color: #990000;" class="text-white py-10">
+			<div class="max-w-7xl mx-auto px-6 md:px-12">
+			  <div class="grid md:grid-cols-2 gap-10">
+		  
+				<!-- Kontak Kami -->
+				<div>
+				  <h2 class="text-white font-semibold mb-4">Kontak Kami</h2>
+				  <ul class="space-y-3 text-white">
+					<li class="flex items-start gap-2">
+					  <i class="fa fa-map-marker mt-1"></i>
+					  <a href="https://www.google.com/maps/place/Tahu+Bakso+Jeng+Evie/@-6.4620866,106.8182782,17z" target="_blank" class="hover:underline text-white">
+						Pondok Widyatama Indah Blok H no 11, Pondok Rajeg, Cibinong-Bogor
+					  </a>
+					</li>
+					<li class="flex items-center gap-2">
+					  <i class="fa fa-phone"></i>
+					  <a href="https://api.whatsapp.com/send/?phone=%2B6289528006488&text&type=phone_number&app_absent=0" class="text-white hover:underline">0895 2800 6488</a>
+					</li>
+					<li class="flex items-center gap-2">
+					  <i class="fa fa-clock-o"></i>
+					  Senin–Jum'at 08:00–17:00
+					</li>
+					<li class="flex items-center gap-2">
+					  <i class="fa fa-envelope"></i>
+					  <a href="mailto:firevfafafa@gmail.com" class="text-white hover:underline">firevfafafa@gmail.com</a>
+					</li>
+				  </ul>
 				</div>
-		
-				<div class="bg-white p-3 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-95 min-w-[180px]">
-					<img src="gambarproduk/PIC-DM copy.jpg" alt="Dimsum Mini" class="w-full h-48 object-cover rounded-lg">
-					<h2 class="font-bold mt-2 text-sm">Dimsum Mini</h2>
-					<a href="link-to-product/dimsum-mini" class="block w-full text-white py-2 px-3 rounded-lg mt-2 text-center text-sm" style="background-color: #990000;">View Product</a>
+		  
+				<!-- Google Maps Embed -->
+				<div class="w-full">
+				  <iframe 
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.321491472257!2d106.8182782!3d-6.4620866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ea008a13ed1d%3A0xdf13994b64899dce!2sTahu%20Bakso%20Jeng%20Evie!5e0!3m2!1sid!2sid!4v1688999952013!5m2!1sid!2sid" 
+					width="100%" 
+					height="250" 
+					style="border:0;" 
+					allowfullscreen="" 
+					loading="lazy" 
+					referrerpolicy="no-referrer-when-downgrade"
+					class="rounded-lg shadow-md"
+				  ></iframe>
 				</div>
-		
-				<div class="bg-white p-3 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-95 min-w-[180px]">
-					<img src="gambarproduk/PIC-DP copy.jpg" alt="Dimsum Pangsit" class="w-full h-48 object-cover rounded-lg">
-					<h2 class="font-bold mt-2 text-sm">Dimsum Pangsit</h2>
-					<a href="link-to-product/dimsum-pangsit" class="block w-full text-white py-2 px-3 rounded-lg mt-2 text-center text-sm" style="background-color: #990000;">View Product</a>
-				</div>
-		
-				<div class="bg-white p-3 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-95 min-w-[180px]">
-					<img src="gambarproduk/PIC-ER copy.jpg" alt="Egg Roll" class="w-full h-48 object-cover rounded-lg">
-					<h2 class="font-bold mt-2 text-sm">Egg Roll</h2>
-					<a href="link-to-product/egg-roll" class="block w-full text-white py-2 px-3 rounded-lg mt-2 text-center text-sm" style="background-color: #990000;">View Product</a>
-				</div>
-		
-				<div class="bg-white p-3 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-95 min-w-[180px]">
-					<img src="gambarproduk/PIC-SS copy.jpg" alt="Sosis Solo" class="w-full h-48 object-cover rounded-lg">
-					<h2 class="font-bold mt-2 text-sm">Sosis Solo</h2>
-					<a href="link-to-product/sosis-solo" class="block w-full text-white py-2 px-3 rounded-lg mt-2 text-center text-sm" style="background-color: #990000;">View Product</a>
-				</div>
+			  </div>
+		  
+			  <!-- Copyright -->
+			  <div class="border-t border-gray-200 mt-10 pt-6 text-center text-sm">
+				<span class="text-white">© 2024 Jeng Evie Food. <a href="#" class="underline text-white">Terms of Use & Privacy Policy</a></span>
+			  </div>
 			</div>
-		</div>
-		
-		
-		
-		
-
-	<footer class="entry-footer">
-	</footer><!-- .entry-footer -->
-
-	</article><!-- #post-## -->
-
-	</main><!-- #main -->
-
-	</div><!-- #primary -->
-
-
-	</div><!-- .row -->
-
-	</div><!-- .container -->
-
-
-
-	</div><!-- #content -->
-
-	<footer style="background-color: #990000;" class="text-white py-10">
-		<div class="max-w-7xl mx-auto px-6 md:px-12">
-		  <div class="grid md:grid-cols-2 gap-10">
-	  
-			<!-- Kontak Kami -->
-			<div>
-			  <h2 class="text-white font-semibold mb-4">Kontak Kami</h2>
-			  <ul class="space-y-3 text-white">
-				<li class="flex items-start gap-2">
-				  <i class="fa fa-map-marker mt-1"></i>
-				  <a href="https://www.google.com/maps/place/Tahu+Bakso+Jeng+Evie/@-6.4620866,106.8182782,17z" target="_blank" class="hover:underline text-white">
-					Pondok Widyatama Indah Blok H no 11, Pondok Rajeg, Cibinong-Bogor
-				  </a>
-				</li>
-				<li class="flex items-center gap-2">
-				  <i class="fa fa-phone"></i>
-				  <a href="https://api.whatsapp.com/send/?phone=%2B6289528006488&text&type=phone_number&app_absent=0" class="text-white hover:underline">0895 2800 6488</a>
-				</li>
-				<li class="flex items-center gap-2">
-				  <i class="fa fa-clock-o"></i>
-				  Senin–Jum'at 08:00–17:00
-				</li>
-				<li class="flex items-center gap-2">
-				  <i class="fa fa-envelope"></i>
-				  <a href="mailto:firevfafafa@gmail.com" class="text-white hover:underline">firevfafafa@gmail.com</a>
-				</li>
-			  </ul>
-			</div>
-	  
-			<!-- Google Maps Embed -->
-			<div class="w-full">
-			  <iframe 
-				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.321491472257!2d106.8182782!3d-6.4620866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ea008a13ed1d%3A0xdf13994b64899dce!2sTahu%20Bakso%20Jeng%20Evie!5e0!3m2!1sid!2sid!4v1688999952013!5m2!1sid!2sid" 
-				width="100%" 
-				height="250" 
-				style="border:0;" 
-				allowfullscreen="" 
-				loading="lazy" 
-				referrerpolicy="no-referrer-when-downgrade"
-				class="rounded-lg shadow-md"
-			  ></iframe>
-			</div>
-		  </div>
-	  
-		  <!-- Copyright -->
-		  <div class="border-t border-gray-200 mt-10 pt-6 text-center text-sm">
-			<span class="text-white">© 2024 Jeng Evie Food. <a href="#" class="underline text-white">Terms of Use & Privacy Policy</a></span>
-		  </div>
-		</div>
-	  </footer>
-</div><!-- #page -->
-
-	<style type="text/css" id="tm-builder-advanced-style">
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_team_member_1.tm_pb_team_member {
-			margin-top: 30px !important;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_team_member_1 .tm_pb_team_member_description {
-			text-align: left;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_team_member_2.tm_pb_team_member {
-			margin-top: 30px !important;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_team_member_0 .tm_pb_team_member_description {
-			text-align: left;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_column_6 {
-			max-width: 810px;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_text_2 * {
-			margin-top: 0px !important;
-			margin-bottom: 30px !important;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_row_3 {
-			margin-top: 25px;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_team_member_2 .tm_pb_team_member_description {
-			text-align: left;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_row_4 {
-			margin-top: 100px;
-			margin-bottom: 35px;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_divider_1 {
-			margin-top: 32px !important;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_divider_1:before {
-			border-top-color: #f3f3f3;
-			border-top-style: solid;
-			width: 100%;
-			margin-left: -50%;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_text_4 {
-			font-size: 29px;
-			color: #2b2f3e !important;
-			margin-top: 27px !important;
-			margin-bottom: 50px !important;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_text_3 p {
-			margin-bottom: 13px !important;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_divider_0:before {
-			border-top-color: #f3f3f3;
-			border-top-style: solid;
-			width: 100%;
-			margin-left: -50%;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_column_7 {
-			max-width: 810px;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_divider_0 {
-			margin-bottom: 35px !important;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_text_2 {
-			padding-bottom: 0px !important;
-			max-width: 790px;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_image_1 {
-			margin-top: 90px !important;
-			margin-bottom: 63px !important;
-			margin-left: 0;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_0 .tm_pb_main_blurb_image {
-			width: 83px;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_1.tm_pb_blurb h4,
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_1.tm_pb_blurb h4 a {
-			font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-			font-size: 18px;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_1.tm_pb_blurb {
-			font-size: 14px;
-			color: #bdbdbd !important;
-			padding-top: 15px !important;
-			padding-right: 0px !important;
-			padding-bottom: 15px !important;
-			padding-left: 0px !important;
-			margin-bottom: 0px !important;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_0.tm_pb_blurb {
-			font-size: 14px;
-			color: #bdbdbd !important;
-			padding-top: 15px !important;
-			padding-right: 0px !important;
-			padding-bottom: 15px !important;
-			padding-left: 0px !important;
-			margin-bottom: 0px !important;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_0.tm_pb_blurb h4,
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_0.tm_pb_blurb h4 a {
-			font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-			font-size: 18px;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_text_0 {
-			margin-top: 63px !important;
-			max-width: 790px;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_row_1 {
-			margin-top: 52px;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_1 .tm_pb_main_blurb_image {
-			width: 83px;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_2.tm_pb_blurb h4,
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_2.tm_pb_blurb h4 a {
-			font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-			font-size: 18px;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_3 .tm_pb_main_blurb_image {
-			width: 83px;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_row_2 {
-			margin-top: 35px;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_text_1 {
-			max-width: 790px;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_3.tm_pb_blurb {
-			font-size: 14px;
-			color: #bdbdbd !important;
-			padding-top: 15px !important;
-			padding-right: 0px !important;
-			padding-bottom: 15px !important;
-			padding-left: 0px !important;
-			margin-bottom: 0px !important;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_3.tm_pb_blurb h4,
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_3.tm_pb_blurb h4 a {
-			font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-			font-size: 18px;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_2.tm_pb_blurb {
-			font-size: 14px;
-			color: #bdbdbd !important;
-			padding-top: 15px !important;
-			padding-right: 0px !important;
-			padding-bottom: 15px !important;
-			padding-left: 0px !important;
-			margin-bottom: 0px !important;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_2 .tm_pb_main_blurb_image {
-			width: 83px;
-		}
-
-		.tm_pb_builder #tm_builder_outer_content .tm_pb_image_0 {
-			margin-left: 0;
-		}
-
-		@media only screen and (max-width: 767px) {
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_text_1 {
-				letter-spacing: 0px;
-			}
-
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_3.tm_pb_blurb {
-				letter-spacing: 0px;
-			}
-
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_text_2 {
-				letter-spacing: 0px;
-			}
-
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_team_member_0.tm_pb_team_member h4 {
-				letter-spacing: 0px;
-			}
-
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_team_member_2.tm_pb_team_member h4 {
-				font-size: 51px;
-			}
-
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_team_member_0.tm_pb_team_member * {
-				letter-spacing: 0px;
-			}
-
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_3.tm_pb_blurb h4,
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_3.tm_pb_blurb h4 a {
-				letter-spacing: 0px;
-			}
-
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_2.tm_pb_blurb {
-				letter-spacing: 0px;
-			}
-
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_0.tm_pb_blurb {
-				letter-spacing: 0px;
-			}
-
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_0.tm_pb_blurb h4,
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_0.tm_pb_blurb h4 a {
-				letter-spacing: 0px;
-			}
-
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_1.tm_pb_blurb h4,
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_1.tm_pb_blurb h4 a {
-				letter-spacing: 0px;
-			}
-
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_1.tm_pb_blurb {
-				letter-spacing: 0px;
-			}
-
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_2.tm_pb_blurb h4,
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_2.tm_pb_blurb h4 a {
-				letter-spacing: 0px;
-			}
-
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_text_0 {
-				letter-spacing: 0px;
-			}
-		}
-
-		@media (max-width: 61.9em) {
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_row_4 {
-				margin-top: 70px;
-				margin-bottom: 35px;
-			}
-
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_image_1 {
-				margin-top: 70px !important;
-				margin-bottom: 63px !important;
-			}
-
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_text_0 {
-				margin-top: 40px !important;
-			}
-		}
-
-		@media (max-width: 47.9em) {
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_row_4 {
-				margin-top: 50px;
-				margin-bottom: 35px;
-			}
-
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_text_2 * {
-				margin-top: 0px !important;
-				margin-bottom: 15px !important;
-			}
-
-			.tm_pb_builder #tm_builder_outer_content .tm_pb_image_1 {
-				margin-top: 40px !important;
-				margin-bottom: 40px !important;
-			}
-		}
-	</style>
-	<link rel="stylesheet" id="tm-gf-montserrat-css" href="./css(2)" type="text/css" media="all">
-	<script type="text/javascript">
-		/* <![CDATA[ */
-		var wp_load_style = ["booked-gf.css", "booked-tooltipster.css", "booked-tooltipster-theme.css", "booked-animations.css", "booked-styles.css", "booked-responsive.css", "mp-restaurant-menu-font.css", "mprm-style.css", "miaittalonni-theme-style.css", "cherry-google-fonts.css", "tm-builder-swiper.css", "tm-builder-modules-grid.css", "tm-builder-modules-style.css", "magnific-popup.css", "font-awesome.css"];
-		var wp_load_script = ["cherry-js-core.js", "jquery.js", "booked-spin-js.js", "booked-spin-jquery.js", "booked-tooltipster.js", "booked-functions.js", "tm-builder-modules-global-functions-script.js", "wp-util.js", "miaittalonni-theme-script.js", "cherry-post-formats.js", "google-maps-api.js", "divi-fitvids.js", "waypoints.js", "magnific-popup.js", "tm-jquery-touch-mobile.js", "tm-builder-frontend-closest-descendent.js", "tm-builder-frontend-reverse.js", "tm-builder-frontend-simple-carousel.js", "tm-builder-frontend-simple-slider.js", "tm-builder-frontend-easy-pie-chart.js", "tm-builder-frontend-tm-hash.js", "tm-builder-modules-script.js", "tm-builder-swiper.js", "fittext.js"];
-		var cherry_ajax = "10ecefbd8b";
-		var ui_init_object = { "auto_init": "false", "targets": [] };
-		/* ]]> */
-	</script>
-	<script type="text/javascript" src="./cherry-js-core.min.js.download"></script>
-	<script type="text/javascript">
-		function CherryCSSCollector() { "use strict"; var t, e = window.CherryCollectedCSS; void 0 !== e && (t = document.createElement("style"), t.setAttribute("title", e.title), t.setAttribute("type", e.type), t.textContent = e.css, document.head.appendChild(t)) } CherryCSSCollector();
-	</script>
-	<script type="text/javascript" src="./spin.min.js.download"></script>
-	<script type="text/javascript" src="./spin.jquery.js.download"></script>
-	<script type="text/javascript" src="./jquery.tooltipster.min.js.download"></script>
-	<script type="text/javascript" src="./functions.js.download"></script>
-	<script type="text/javascript" src="./frontend-builder-global-functions.js.download"></script>
-	<script type="text/javascript" src="./underscore.min.js.download"></script>
-	<script type="text/javascript">
-		/* <![CDATA[ */
-		var _wpUtilSettings = { "ajax": { "url": "\/wordpress_62028\/wp-admin\/admin-ajax.php" } };
-		/* ]]> */
-	</script>
-	<script type="text/javascript" src="./wp-util.min.js.download"></script>
-	<script type="text/javascript" src="./hoverIntent.min.js.download"></script>
-	<script type="text/javascript" src="./super-guacamole.min.js.download"></script>
-	<script type="text/javascript" src="./swiper.jquery.min.js.download"></script>
-	<script type="text/javascript" src="./jquery.ui.totop.min.js.download"></script>
-	<script type="text/javascript">
-		/* <![CDATA[ */
-		var miaittalonni = { "ajaxurl": "https:\/\/ld-wp.template-help.com\/wordpress_62028\/wp-admin\/admin-ajax.php", "labels": { "totop_button": "", "hidden_menu_items_title": "More" } };
-		/* ]]> */
-	</script>
-	<script type="text/javascript" src="./theme-script.js.download"></script><a
-		href="https://ld-wp.template-help.com/wordpress_62028/about/#" id="toTop"
-		style="display: none;"><span></span></a>
-	<script type="text/javascript" src="./cherry-post-formats.min.js.download"></script>
-	<script type="text/javascript" src="./js"></script>
-	<script type="text/javascript" src="./jquery.fitvids.js.download"></script>
-	<script type="text/javascript" src="./waypoints.min.js.download"></script>
-	<script type="text/javascript" src="./jquery.magnific-popup.min.js.download"></script>
-	<script type="text/javascript" src="./jquery.mobile.custom.min.js.download"></script>
-	<script type="text/javascript" src="./jquery.closest-descendent.js.download"></script>
-	<script type="text/javascript" src="./jquery.reverse.js.download"></script>
-	<script type="text/javascript" src="./jquery.tm-pb-simple-carousel.js.download"></script>
-	<script type="text/javascript" src="./jquery.tm-pb-simple-slider.js.download"></script>
-	<script type="text/javascript" src="./jquery.easypiechart.js.download"></script>
-	<script type="text/javascript" src="./tm-hash.js.download"></script>
-	<script type="text/javascript">
-		/* <![CDATA[ */
-		var tm_pb_custom = { "ajaxurl": "https:\/\/ld-wp.template-help.com\/wordpress_62028\/wp-admin\/admin-ajax.php", "images_uri": "https:\/\/ld-wp.template-help.com\/wordpress_62028\/wp-content\/themes\/miaittalonni\/images", "builder_images_uri": "https:\/\/ld-wp.template-help.com\/wordpress_62028\/wp-content\/plugins\/power-builder\/framework\/assets\/images", "tm_frontend_nonce": "d123e41dfd", "subscription_failed": "Please, check the fields below to make sure you entered the correct information.", "fill_message": "Please, fill in the following fields:", "contact_error_message": "Please, fix the following errors:", "invalid": "Invalid email", "captcha": "Captcha", "prev": "Prev", "previous": "Previous", "next": "Next", "wrong_captcha": "You entered the wrong number in captcha.", "is_builder_plugin_used": "1", "is_divi_theme_used": "", "widget_search_selector": ".widget_search" };
-		/* ]]> */
-	</script>
-	<script type="text/javascript" src="./scripts.js.download"></script>
-	<script type="text/javascript" src="./swiper.jquery.min(1).js.download"></script>
-	<script type="text/javascript" src="./jquery.fittext.js.download"></script>
-	<script type="text/javascript" src="./wp-embed.min.js.download"></script>
-	<!-- {%FOOTER_LINK} -->
-	<!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69" height="0"
-			width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-P9FT69');</script>
-	<!-- End Google Tag Manager -->
-
-	<script type="text/javascript" id="">(function () {
-			var b = document.location.search.split("aff\x3d")[1]; if (b) { var d = document.querySelectorAll("a"), c; for (c = 0; c < d.length; c++) { var a = d[c]; 0 == a.href.indexOf("https://www.templatemonster.com") && (0 < a.href.indexOf("?") ? a.href = a.href + "\x26aff\x3d" + b : a.href = a.href + "?aff\x3d" + b) } } b = document.location.search.split("i\x3d")[1]; var e = document.location.search.split("pr_code\x3d")[1]; if (b && e) for (b = b.split("\x26")[0], d = document.querySelectorAll("a"), c = 0; c < d.length; c++)a = d[c], 0 == a.href.indexOf("https://www.templatemonster.com") &&
-				(a.href = "https://www.templatehelp.com/preset/cart.php?act\x3dadd\x26templ\x3d" + b + "\x26pr_code\x3d" + e)
-		})();</script>
-</body>
-
-</html>
+		  </footer>
+    </div><!-- #page -->
+    
+        <style type="text/css" id="tm-builder-advanced-style">
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_team_member_1.tm_pb_team_member {
+                margin-top: 30px !important;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_team_member_1 .tm_pb_team_member_description {
+                text-align: left;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_team_member_2.tm_pb_team_member {
+                margin-top: 30px !important;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_team_member_0 .tm_pb_team_member_description {
+                text-align: left;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_column_6 {
+                max-width: 810px;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_text_2 * {
+                margin-top: 0px !important;
+                margin-bottom: 30px !important;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_row_3 {
+                margin-top: 25px;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_team_member_2 .tm_pb_team_member_description {
+                text-align: left;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_row_4 {
+                margin-top: 100px;
+                margin-bottom: 35px;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_divider_1 {
+                margin-top: 32px !important;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_divider_1:before {
+                border-top-color: #f3f3f3;
+                border-top-style: solid;
+                width: 100%;
+                margin-left: -50%;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_text_4 {
+                font-size: 29px;
+                color: #2b2f3e !important;
+                margin-top: 27px !important;
+                margin-bottom: 50px !important;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_text_3 p {
+                margin-bottom: 13px !important;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_divider_0:before {
+                border-top-color: #f3f3f3;
+                border-top-style: solid;
+                width: 100%;
+                margin-left: -50%;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_column_7 {
+                max-width: 810px;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_divider_0 {
+                margin-bottom: 35px !important;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_text_2 {
+                padding-bottom: 0px !important;
+                max-width: 790px;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_image_1 {
+                margin-top: 90px !important;
+                margin-bottom: 63px !important;
+                margin-left: 0;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_0 .tm_pb_main_blurb_image {
+                width: 83px;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_1.tm_pb_blurb h4,
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_1.tm_pb_blurb h4 a {
+                font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+                font-size: 18px;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_1.tm_pb_blurb {
+                font-size: 14px;
+                color: #bdbdbd !important;
+                padding-top: 15px !important;
+                padding-right: 0px !important;
+                padding-bottom: 15px !important;
+                padding-left: 0px !important;
+                margin-bottom: 0px !important;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_0.tm_pb_blurb {
+                font-size: 14px;
+                color: #bdbdbd !important;
+                padding-top: 15px !important;
+                padding-right: 0px !important;
+                padding-bottom: 15px !important;
+                padding-left: 0px !important;
+                margin-bottom: 0px !important;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_0.tm_pb_blurb h4,
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_0.tm_pb_blurb h4 a {
+                font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+                font-size: 18px;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_text_0 {
+                margin-top: 63px !important;
+                max-width: 790px;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_row_1 {
+                margin-top: 52px;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_1 .tm_pb_main_blurb_image {
+                width: 83px;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_2.tm_pb_blurb h4,
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_2.tm_pb_blurb h4 a {
+                font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+                font-size: 18px;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_3 .tm_pb_main_blurb_image {
+                width: 83px;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_row_2 {
+                margin-top: 35px;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_text_1 {
+                max-width: 790px;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_3.tm_pb_blurb {
+                font-size: 14px;
+                color: #bdbdbd !important;
+                padding-top: 15px !important;
+                padding-right: 0px !important;
+                padding-bottom: 15px !important;
+                padding-left: 0px !important;
+                margin-bottom: 0px !important;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_3.tm_pb_blurb h4,
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_3.tm_pb_blurb h4 a {
+                font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+                font-size: 18px;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_2.tm_pb_blurb {
+                font-size: 14px;
+                color: #bdbdbd !important;
+                padding-top: 15px !important;
+                padding-right: 0px !important;
+                padding-bottom: 15px !important;
+                padding-left: 0px !important;
+                margin-bottom: 0px !important;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_2 .tm_pb_main_blurb_image {
+                width: 83px;
+            }
+    
+            .tm_pb_builder #tm_builder_outer_content .tm_pb_image_0 {
+                margin-left: 0;
+            }
+    
+            @media only screen and (max-width: 767px) {
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_text_1 {
+                    letter-spacing: 0px;
+                }
+    
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_3.tm_pb_blurb {
+                    letter-spacing: 0px;
+                }
+    
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_text_2 {
+                    letter-spacing: 0px;
+                }
+    
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_team_member_0.tm_pb_team_member h4 {
+                    letter-spacing: 0px;
+                }
+    
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_team_member_2.tm_pb_team_member h4 {
+                    font-size: 51px;
+                }
+    
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_team_member_0.tm_pb_team_member * {
+                    letter-spacing: 0px;
+                }
+    
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_3.tm_pb_blurb h4,
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_3.tm_pb_blurb h4 a {
+                    letter-spacing: 0px;
+                }
+    
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_2.tm_pb_blurb {
+                    letter-spacing: 0px;
+                }
+    
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_0.tm_pb_blurb {
+                    letter-spacing: 0px;
+                }
+    
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_0.tm_pb_blurb h4,
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_0.tm_pb_blurb h4 a {
+                    letter-spacing: 0px;
+                }
+    
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_1.tm_pb_blurb h4,
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_1.tm_pb_blurb h4 a {
+                    letter-spacing: 0px;
+                }
+    
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_1.tm_pb_blurb {
+                    letter-spacing: 0px;
+                }
+    
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_2.tm_pb_blurb h4,
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_blurb_2.tm_pb_blurb h4 a {
+                    letter-spacing: 0px;
+                }
+    
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_text_0 {
+                    letter-spacing: 0px;
+                }
+            }
+    
+            @media (max-width: 61.9em) {
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_row_4 {
+                    margin-top: 70px;
+                    margin-bottom: 35px;
+                }
+    
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_image_1 {
+                    margin-top: 70px !important;
+                    margin-bottom: 63px !important;
+                }
+    
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_text_0 {
+                    margin-top: 40px !important;
+                }
+            }
+    
+            @media (max-width: 47.9em) {
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_row_4 {
+                    margin-top: 50px;
+                    margin-bottom: 35px;
+                }
+    
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_text_2 * {
+                    margin-top: 0px !important;
+                    margin-bottom: 15px !important;
+                }
+    
+                .tm_pb_builder #tm_builder_outer_content .tm_pb_image_1 {
+                    margin-top: 40px !important;
+                    margin-bottom: 40px !important;
+                }
+            }
+        </style>
+        <link rel="stylesheet" id="tm-gf-montserrat-css" href="./css(2)" type="text/css" media="all">
+        <script type="text/javascript">
+            /* <![CDATA[ */
+            var wp_load_style = ["booked-gf.css", "booked-tooltipster.css", "booked-tooltipster-theme.css", "booked-animations.css", "booked-styles.css", "booked-responsive.css", "mp-restaurant-menu-font.css", "mprm-style.css", "miaittalonni-theme-style.css", "cherry-google-fonts.css", "tm-builder-swiper.css", "tm-builder-modules-grid.css", "tm-builder-modules-style.css", "magnific-popup.css", "font-awesome.css"];
+            var wp_load_script = ["cherry-js-core.js", "jquery.js", "booked-spin-js.js", "booked-spin-jquery.js", "booked-tooltipster.js", "booked-functions.js", "tm-builder-modules-global-functions-script.js", "wp-util.js", "miaittalonni-theme-script.js", "cherry-post-formats.js", "google-maps-api.js", "divi-fitvids.js", "waypoints.js", "magnific-popup.js", "tm-jquery-touch-mobile.js", "tm-builder-frontend-closest-descendent.js", "tm-builder-frontend-reverse.js", "tm-builder-frontend-simple-carousel.js", "tm-builder-frontend-simple-slider.js", "tm-builder-frontend-easy-pie-chart.js", "tm-builder-frontend-tm-hash.js", "tm-builder-modules-script.js", "tm-builder-swiper.js", "fittext.js"];
+            var cherry_ajax = "10ecefbd8b";
+            var ui_init_object = { "auto_init": "false", "targets": [] };
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="./cherry-js-core.min.js.download"></script>
+        <script type="text/javascript">
+            function CherryCSSCollector() { "use strict"; var t, e = window.CherryCollectedCSS; void 0 !== e && (t = document.createElement("style"), t.setAttribute("title", e.title), t.setAttribute("type", e.type), t.textContent = e.css, document.head.appendChild(t)) } CherryCSSCollector();
+        </script>
+        <script type="text/javascript" src="./spin.min.js.download"></script>
+        <script type="text/javascript" src="./spin.jquery.js.download"></script>
+        <script type="text/javascript" src="./jquery.tooltipster.min.js.download"></script>
+        <script type="text/javascript" src="./functions.js.download"></script>
+        <script type="text/javascript" src="./frontend-builder-global-functions.js.download"></script>
+        <script type="text/javascript" src="./underscore.min.js.download"></script>
+        <script type="text/javascript">
+            /* <![CDATA[ */
+            var _wpUtilSettings = { "ajax": { "url": "\/wordpress_62028\/wp-admin\/admin-ajax.php" } };
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="./wp-util.min.js.download"></script>
+        <script type="text/javascript" src="./hoverIntent.min.js.download"></script>
+        <script type="text/javascript" src="./super-guacamole.min.js.download"></script>
+        <script type="text/javascript" src="./swiper.jquery.min.js.download"></script>
+        <script type="text/javascript" src="./jquery.ui.totop.min.js.download"></script>
+        <script type="text/javascript">
+            /* <![CDATA[ */
+            var miaittalonni = { "ajaxurl": "https:\/\/ld-wp.template-help.com\/wordpress_62028\/wp-admin\/admin-ajax.php", "labels": { "totop_button": "", "hidden_menu_items_title": "More" } };
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="./theme-script.js.download"></script><a
+            href="https://ld-wp.template-help.com/wordpress_62028/about/#" id="toTop"
+            style="display: none;"><span></span></a>
+        <script type="text/javascript" src="./cherry-post-formats.min.js.download"></script>
+        <script type="text/javascript" src="./js"></script>
+        <script type="text/javascript" src="./jquery.fitvids.js.download"></script>
+        <script type="text/javascript" src="./waypoints.min.js.download"></script>
+        <script type="text/javascript" src="./jquery.magnific-popup.min.js.download"></script>
+        <script type="text/javascript" src="./jquery.mobile.custom.min.js.download"></script>
+        <script type="text/javascript" src="./jquery.closest-descendent.js.download"></script>
+        <script type="text/javascript" src="./jquery.reverse.js.download"></script>
+        <script type="text/javascript" src="./jquery.tm-pb-simple-carousel.js.download"></script>
+        <script type="text/javascript" src="./jquery.tm-pb-simple-slider.js.download"></script>
+        <script type="text/javascript" src="./jquery.easypiechart.js.download"></script>
+        <script type="text/javascript" src="./tm-hash.js.download"></script>
+        <script type="text/javascript">
+            /* <![CDATA[ */
+            var tm_pb_custom = { "ajaxurl": "https:\/\/ld-wp.template-help.com\/wordpress_62028\/wp-admin\/admin-ajax.php", "images_uri": "https:\/\/ld-wp.template-help.com\/wordpress_62028\/wp-content\/themes\/miaittalonni\/images", "builder_images_uri": "https:\/\/ld-wp.template-help.com\/wordpress_62028\/wp-content\/plugins\/power-builder\/framework\/assets\/images", "tm_frontend_nonce": "d123e41dfd", "subscription_failed": "Please, check the fields below to make sure you entered the correct information.", "fill_message": "Please, fill in the following fields:", "contact_error_message": "Please, fix the following errors:", "invalid": "Invalid email", "captcha": "Captcha", "prev": "Prev", "previous": "Previous", "next": "Next", "wrong_captcha": "You entered the wrong number in captcha.", "is_builder_plugin_used": "1", "is_divi_theme_used": "", "widget_search_selector": ".widget_search" };
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="./scripts.js.download"></script>
+        <script type="text/javascript" src="./swiper.jquery.min(1).js.download"></script>
+        <script type="text/javascript" src="./jquery.fittext.js.download"></script>
+        <script type="text/javascript" src="./wp-embed.min.js.download"></script>
+        <!-- {%FOOTER_LINK} -->
+        <!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69" height="0"
+                width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-P9FT69');</script>
+        <!-- End Google Tag Manager -->
+    
+        <script type="text/javascript" id="">(function () {
+                var b = document.location.search.split("aff\x3d")[1]; if (b) { var d = document.querySelectorAll("a"), c; for (c = 0; c < d.length; c++) { var a = d[c]; 0 == a.href.indexOf("https://www.templatemonster.com") && (0 < a.href.indexOf("?") ? a.href = a.href + "\x26aff\x3d" + b : a.href = a.href + "?aff\x3d" + b) } } b = document.location.search.split("i\x3d")[1]; var e = document.location.search.split("pr_code\x3d")[1]; if (b && e) for (b = b.split("\x26")[0], d = document.querySelectorAll("a"), c = 0; c < d.length; c++)a = d[c], 0 == a.href.indexOf("https://www.templatemonster.com") &&
+                    (a.href = "https://www.templatehelp.com/preset/cart.php?act\x3dadd\x26templ\x3d" + b + "\x26pr_code\x3d" + e)
+            })();</script>
+    </body>
+    
+    </html>
